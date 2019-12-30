@@ -1,0 +1,5 @@
+refpolicypk (1.0-1) bionic; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Bighead <bighead@unknown>  Thu, 26 Dec 2019 01:58:57 -0800

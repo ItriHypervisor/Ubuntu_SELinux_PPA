@@ -1,0 +1,4 @@
+config-5.0.21	boot
+initrd.img-5.0.21	boot
+System.map-5.0.21 	boot
+vmlinuz-5.0.21	boot

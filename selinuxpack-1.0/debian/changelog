@@ -1,0 +1,5 @@
+selinuxpack (1.0-1) bionic; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Bighead <bighead@unknown>  Thu, 26 Dec 2019 01:06:01 -0800

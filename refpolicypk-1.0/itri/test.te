@@ -1,0 +1,25 @@
+
+policy_module(test, 1.1.0)
+
+gen_require(`
+	type init_t;
+	type init_exec_t;
+	type xdm_t;
+	type user_t;
+	type unconfined_t;
+	class process transition; 
+	class file entrypoint;
+')
+
+#role unconfined_r types xdm_t;
+allow init_t xdm_t:process transition;
+allow xdm_t init_exec_t:file entrypoint;
+
+#allow init_t user_t:process transition;
+#allow user_t init_exec_t:file entrypoint;
+
+allow init_t unconfined_t:process transition;
+allow unconfined_t init_exec_t:file entrypoint;
+
+allow initrc_t unconfined_t:process transition;
+allow unconfined_t initrc_exec_t:file entrypoint;

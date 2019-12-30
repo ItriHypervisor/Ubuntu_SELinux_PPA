@@ -1,0 +1,5 @@
+kernelselinux (1.0-1) bionic; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Bighead <bighead@unknown>  Wed, 25 Dec 2019 00:54:34 -0800

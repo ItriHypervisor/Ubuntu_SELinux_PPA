@@ -1,0 +1,4 @@
+root:root
+gdm:system_u
+bighead:unconfined_u
+__default__:user_u

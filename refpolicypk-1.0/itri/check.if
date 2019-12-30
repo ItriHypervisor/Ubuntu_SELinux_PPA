@@ -1,0 +1,8 @@
+## <summary>
+##	Policy for ubuntu unconfined_t
+## </summary>
+## <required val="true">
+##	This module is required
+## </required>
+
+

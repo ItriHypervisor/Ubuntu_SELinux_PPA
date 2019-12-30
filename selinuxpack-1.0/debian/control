@@ -1,0 +1,16 @@
+Source: selinuxpack
+Section: devel
+Priority: optional
+Maintainer: Bighead <bighead@unknown>
+Build-Depends: debhelper (>= 10), flex, libpcre3-dev, libglib2.0-dev, libbz2-dev, libaudit-dev, bison, xmlto, gettext, libcap-dev, libdbus-glib-1-dev, libcap-ng-dev, swig, libpython3-dev, gawk
+Standards-Version: 4.1.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/selinux.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/selinux.git
+
+Package: selinuxpack
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: libsemanage1, libsemanage-common, libselinux1, libsepol1, selinux-utils, policycoreutils, semodule-utils 
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
