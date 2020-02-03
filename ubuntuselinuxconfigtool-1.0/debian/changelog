@@ -1,3 +1,15 @@
+ubuntuselinuxconfigtool (1.0-1ubuntu2) bionic; urgency=medium
+
+  * copy python module to specific directory
+
+ -- Bighead <bighead@ubuntu>  Mon, 03 Feb 2020 00:31:05 -0800
+
+ubuntuselinuxconfigtool (1.0-1ubuntu1) bionic; urgency=medium
+
+  * Add new feature audit2semoduleinstall.sh
+
+ -- Bighead <bighead@ubuntu>  Sun, 02 Feb 2020 18:56:41 -0800
+
 ubuntuselinuxconfigtool (1.0-1) bionic; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>

@@ -1,3 +1,39 @@
+refpolicypk (1.0-1ubuntu6) bionic; urgency=medium
+
+  * Use environment variable PWD to build package.
+
+ -- Bighead <bighead@ubuntu>  Sun, 02 Feb 2020 23:31:18 -0800
+
+refpolicypk (1.0-1ubuntu5) bionic; urgency=medium
+
+  * Rename policy name from refpolicy_monolithic to refpolicy 
+
+ -- Bighead <bighead@ubuntu>  Sun, 02 Feb 2020 19:04:21 -0800
+
+refpolicypk (1.0-1ubuntu4) bionic; urgency=medium
+
+  * modify Rules.modular to replace load target with install target
+
+ -- Bighead <bighead@ubuntu>  Sun, 02 Feb 2020 18:40:30 -0800
+
+refpolicypk (1.0-1ubuntu3) bionic; urgency=medium
+
+  * make install including policy store /var/lib/selinux... 
+
+ -- Bighead <bighead@ubuntu>  Sun, 02 Feb 2020 18:23:07 -0800
+
+refpolicypk (1.0-1ubuntu2) bionic; urgency=medium
+
+  * modify seusers to make normal user login as unconfined_u
+
+ -- Bighead <bighead@ubuntu>  Fri, 31 Jan 2020 02:50:14 -0800
+
+refpolicypk (1.0-1ubuntu1) bionic; urgency=medium
+
+  * modify Rule.modular to change semodule install root and policy store
+
+ -- Bighead <bighead@ubuntu>  Fri, 31 Jan 2020 01:27:05 -0800
+
 refpolicypk (1.0-1) bionic; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>

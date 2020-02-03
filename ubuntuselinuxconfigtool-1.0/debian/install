@@ -1,2 +1,3 @@
 config	etc/selinux/
 selinuxconfigtool.sh	bin/
+audit2semoduleinstall.sh	bin/

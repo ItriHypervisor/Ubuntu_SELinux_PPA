@@ -1,3 +1,9 @@
+selinuxpack (1.0-1ubuntu1) bionic; urgency=medium
+
+  * show environment variable
+
+ -- Bighead <bighead@ubuntu>  Sun, 02 Feb 2020 22:55:27 -0800
+
 selinuxpack (1.0-1) bionic; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>

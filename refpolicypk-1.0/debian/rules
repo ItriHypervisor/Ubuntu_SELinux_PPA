@@ -22,8 +22,11 @@ build:
 
 override_dh_auto_install:
 	make conf
-	#sed -i -e 's/= module/= base/g' policy/modules.conf
-	dh_auto_install -- MONOLITHIC=y
+	sed -i -e 's/= module/= base/g' policy/modules.conf
+	dh_auto_install -- MONOLITHIC=n
+	mkdir -p $(PWD)/debian/refpolicypk/var/lib/selinux
+	make DESTDIR=$(PWD)/debian/refpolicypk MONOLITHIC=n load
+#	ls -R $(PWD)/debian/refpolicypk/var/lib/selinux
 
 # dh_make generated override targets
 # This is example for Cmake (See https://bugs.debian.org/641051 )
